@@ -1,0 +1,9 @@
+please note that once you download the files in your local directory, you will need to change the paths described in the
+"configuration.py" file, in order to match the ones for your local directories, for MAC or Windows.
+to retreive your active local directory where you desire to run the code from, 
+
+please type : "pwd" (on your Jupyter notebook or CLI) and replace the below paths with your new ones:
+
+DB_PATH_INIT = 'C:\\Users\\romeo\\Desktop\\romanos\\codebase\\Datasets\\initial'
+DB_PATH_PREPRO = 'C:\\Users\\romeo\\Desktop\\romanos\\codebase\\Datasets\\generated'
+DB_PATH_FEATURES = 'C:\\Users\\romeo\\Desktop\\romanos\\codebase\\Datasets\\features'
